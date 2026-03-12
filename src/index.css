@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* light blue page background */
+    --background: 200 100% 97%;
+    --foreground: 220 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+
+    --primary: 210 60% 50%;           /* blue primary */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 40% 90%;         /* lighter blue */
+    --secondary-foreground: 220 20% 15%;
+
+    --muted: 210 40% 95%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 210 80% 55%;            /* another blue accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 60% 50%;         /* dark red for destructive */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 50% 85%;            /* blueish border */
+    --input: 200 50% 85%;
+    --ring: 210 70% 50%;
+
+    --radius: 0.75rem;
+
+    --success: 145 65% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 95% 50%;
+    --warning-foreground: 38 100% 15%;
+    --danger: 0 80% 55%;
+    --danger-foreground: 0 0% 100%;
+    --data: 195 80% 45%;
+
+    --alert: 0 85% 60%;               /* red alert */
+    --alert-foreground: 0 0% 100%;
+    --stimulate: 142 65% 48%;          /* green stimulate */
+    --stimulate-foreground: 0 0% 100%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 20% 15%;
+    --sidebar-primary: 210 60% 50%;    /* match primary */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 40% 90%;     /* match secondary */
+    --sidebar-accent-foreground: 220 20% 15%;
+    --sidebar-border: 200 50% 85%;     /* border variant */
+    --sidebar-ring: 210 70% 50%;
+    /* custom variables for new colors */
+    --brand: 210 100% 50%;
+    --brand-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .alert-pulse {
+    animation: alert-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes alert-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 hsl(0 80% 55% / 0.4); }
+    50% { box-shadow: 0 0 0 12px hsl(0 80% 55% / 0); }
+  }
+}
