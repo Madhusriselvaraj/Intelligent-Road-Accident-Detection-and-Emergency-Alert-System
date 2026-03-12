@@ -17,7 +17,8 @@ Sends an automatic alert message to
 This ensures rapid emergency response and immediate assistance to accident victims.
 
 📊 Workflow Diagram
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/eac8f316-0dd9-4788-83d2-629443ffa0f6" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3fd55983-b7f4-48a7-ba4d-719907065bed" />
+
 
 
 
