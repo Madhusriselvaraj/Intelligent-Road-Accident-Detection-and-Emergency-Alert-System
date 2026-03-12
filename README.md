@@ -17,25 +17,9 @@ Sends an automatic alert message to
 This ensures rapid emergency response and immediate assistance to accident victims.
 
 📊 Workflow Diagram
-Vehicle Motion
-      ↓
-Acceleration Sensor Monitoring
-      ↓
-Microcontroller Processing
-      ↓
-Impact / Threshold Detection
-      ↓
-Accident Identified
-      ↓
-Activate LED & Buzzer
-      ↓
-Retrieve Location
-      ↓
-Send Emergency Alerts
-      ↓
-Ambulance | Police | Family
-      ↓
-Display Alert on Frontend
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/eac8f316-0dd9-4788-83d2-629443ffa0f6" />
+
+
 
 ✨ Key Features
 Real-time accident detection
@@ -45,7 +29,9 @@ Audible and visual emergency indicators
 Frontend dashboard for monitoring and alerts
 
 🧪 Prototype Demonstration
+
 Hardware Simulation:
+
 https://drive.google.com/file/d/13e4U0j6l_J_m2eMgz5G9bhy0MjfxRqLi/view?usp=drivesdk
 
 Frontend Demo:
