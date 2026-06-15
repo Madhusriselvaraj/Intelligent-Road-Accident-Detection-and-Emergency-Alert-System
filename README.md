@@ -40,7 +40,7 @@ Initialize System
 
   ↓
   
-Read Accelerometer Data
+Read Accelerometer Data / Air bag sensor data
 
   ↓
   
@@ -60,12 +60,18 @@ Get GPS Location
 
   ↓
   
-Send SMS via GSM
+Send SMS via GSM / loacation through gps
 
   ↓
   
 Emergency Alert Sent
 
+Applications
+Smart vehicles
+Emergency response systems
+Fleet monitoring
+Public transportation safety
+IoT-enabled transportation systems
 
 
 ✨ Key Features
