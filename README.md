@@ -67,10 +67,15 @@ Send SMS via GSM / loacation through gps
 Emergency Alert Sent
 
 Applications
+
 Smart vehicles
+
 Emergency response systems
+
 Fleet monitoring
+
 Public transportation safety
+
 IoT-enabled transportation systems
 
 
